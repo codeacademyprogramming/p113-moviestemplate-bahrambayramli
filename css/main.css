@@ -74,7 +74,7 @@ body{
     bottom: 0;
     padding: 1rem;
     padding-bottom: 2rem;
-    padding-left: 4.5rem;
+    padding-left: 4.3rem;
     
     background-color: aquamarine;
     background: linear-gradient(rgba(0, 3, 3, 0), rgb(3, 3, 3)); 
@@ -180,10 +180,13 @@ padding-top:0.5rem;
     background: transparent;
     background:none;
     color: #ffffff;
-    font-size: 1.1rem;
-    padding: 0.9rem 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.7rem 1.1rem;
     transition: all 0.2s ease;
     border-color: rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .read-more:hover{
     background-color: white;
