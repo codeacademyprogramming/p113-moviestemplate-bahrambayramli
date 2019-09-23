@@ -27,7 +27,7 @@ body{
 }
 .container{
     width: 100%;
-    height: 650px;
+    height: 635px;
     background-color: black;
 }
 .box1{
@@ -39,6 +39,7 @@ body{
     display: inline-block;
     width: 35.4%;
     height: 100%;
+  
 
 }
 .box1 img,.box2 img{
@@ -72,7 +73,9 @@ body{
     position: absolute;
     bottom: 0;
     padding: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 4.5rem;
+    
     background-color: aquamarine;
     background: linear-gradient(rgba(0, 3, 3, 0), rgb(3, 3, 3)); 
     z-index: 9;
@@ -84,7 +87,9 @@ body{
    text-align: right;
 }
 
-
+.wrapper p{
+    line-height: 25px;
+}
 
 
 
@@ -96,19 +101,18 @@ body{
 }
 .div1,.div2{
  float:left;
-  width:50%;
+padding-top:0.5rem; 
 
 }
 .div1{
   text-align:left;
-   width:80%;
+   width:70%;
 }
 .div2{
-  text-align:right;
- 
-  width:20%;
+  margin-left: 4%;
+  width:26%;
   position:relative;
-  height:50px;
+  height:40px;
 }
 .author{
  background-image:url("https://assets.website-files.com/59f5ae906a27c400013267f0/5a0971097dd52a0001692aef_Portrait-3.jpg");
@@ -117,7 +121,7 @@ body{
   background-repeat:no-repeat;
   background-size:cover;
   height:100%;
-  width:50px;
+  width:45px;
   border-radius: 5px;
   float:left;
 }
@@ -125,6 +129,10 @@ body{
   float:left;
   text-align:left;
   padding-left:1rem;
+}
+.author-name p{
+    line-height: 17px;
+    padding-left: 0rem;
 }
 
 /* end top foot */
@@ -141,10 +149,10 @@ body{
 }
 
 .wrapper h2{
-    font-size: 76px;
+    font-size: 74px;
     font-weight: 800;
     z-index: 10;
-    padding-bottom:0.5rem; 
+    padding-bottom:0px; 
 }
 .info-element {
     display: inline-block;
@@ -193,9 +201,54 @@ body{
 }
 
 .left-1{
-   height: 400px;
+   height: 370px;
    background-color: #F0B720;
+   overflow: hidden;
+   position: relative;
 }
 .left-1 img{
     height: 100%;
+}
+.left-1,.left-2{
+    overflow: hidden;
+    background-color: #000000;
+}
+.box2  img{
+    height: 100%;
+    z-index: 0;
+    transform: scale(1);
+    transition: all 0.2s ease;
+}
+.box2  img:hover{
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+.image-container{
+    position: relative;
+    color: white;
+    font-size: 1rem;
+}
+.wrapper-2{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    z-index: 30;
+    background:transparent;
+    padding: 1.2rem;
+
+}
+.author-left1{
+    background: url('https://assets.website-files.com/59f5ae906a27c400013267f0/5a097100d65a2f0001bcecad_Portrait-1.jpg');
+     background-position:center;
+     background-origin: border-box;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:100%;
+     width:40px;
+     border-radius: 5px;
+     float:left;
+}
+.author-name-left1 p{
+    line-height: 17px;
+    padding-left:3rem; 
 }
