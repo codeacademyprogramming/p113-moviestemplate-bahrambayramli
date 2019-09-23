@@ -76,7 +76,7 @@ body{
     padding-bottom: 2rem;
     padding-left: 4.3rem;
     
-    background-color: aquamarine;
+   
     background: linear-gradient(rgba(0, 3, 3, 0), rgb(3, 3, 3)); 
     z-index: 9;
     
@@ -200,7 +200,8 @@ padding-top:0.5rem;
     display:inline-block; 
 }
 .left-2-item1,.left-2-item2{
-    width: 49%;
+    width: 51%;
+    margin:-4px; 
 }
 
 .left-1{
@@ -238,6 +239,8 @@ padding-top:0.5rem;
     z-index: 30;
     background:transparent;
     padding: 1.2rem;
+    background: linear-gradient         (to bottom,rgba(255,255,255,1) 80%, rgba(255,255,255,0) 100%); /* W3C */  
+
 
 }
 .author-left1{
@@ -255,3 +258,44 @@ padding-top:0.5rem;
     line-height: 17px;
     padding-left:3rem; 
 }
+
+
+/* LEFT 2 ITEM-2 */
+
+.left-2-item1,.left-2-item2{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.left-2 {
+    height: 265.2px;
+  
+
+}
+.wrapper-3{
+    position: absolute;
+    width: 100%;
+    
+    z-index: 30;
+    background:transparent;
+    padding: 1.5rem;
+    padding-left: 1rem;
+    
+    background: linear-gradient(rgba(0, 3, 3, 0), rgb(68, 67, 67)); 
+    z-index: 1;
+    bottom: 0;
+}
+.wrapper-3 i{
+    font-size: 0.8rem;
+}
+.wrapper-3 h2{
+    font-size: 2rem;
+}
+#image{
+    z-index: 10;
+}
+
+.left-2-item2 .wrapper-3 h2{
+    padding: 1.03rem;
+}
+/* END LEFT 2 ITEM 2 */
