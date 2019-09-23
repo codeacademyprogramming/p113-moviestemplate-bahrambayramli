@@ -63,7 +63,7 @@ body{
     height: 100%;
     z-index: 0;
     transform: scale(1);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 .box1 a img:hover{
     transform: scale(1.05);
@@ -296,6 +296,10 @@ padding-top:0.5rem;
 }
 
 .left-2-item2 .wrapper-3 h2{
-    padding: 1.03rem;
+    padding: 1.02rem;
+    padding-bottom: 1.9rem;
+}
+i{
+    text-decoration: underline;
 }
 /* END LEFT 2 ITEM 2 */
